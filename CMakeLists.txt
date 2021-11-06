@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.12)
+project(chat)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
+add_subdirectory(server)
+add_subdirectory(client)
